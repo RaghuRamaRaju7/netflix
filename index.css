@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    color: rgb(206, 192, 192);
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 10%;
+    margin: 0.8% 0% 0.8% 3%;
+    
+}
+nav{
+    display: flex ;
+    background-color: #181818;
+}
+nav .actions{
+    display: flex;
+}
+nav .p{
+ display: block;
+}
+logo img{
+    max-width: 10%;
+    align-items: center;
+    margin: 0.8% 0% 0% 4%;
+}
+ .signup{
+    background-color: red;
+    color: aliceblue;
+    align-items: center;
+    border: 1px solid #888;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 15px;
+    padding: 9px 24px;
+     margin: 4% 3% 0% 0%;
+     width: 150px;
+     height: 40px;
+     font-weight: 600;
+
+
+}
+.login{
+    background-color:transparent;
+    color: aliceblue;
+    border: 1px solid #888;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 15px;
+    padding: 9px 24px;
+    margin: 4% 3% 4% 7%;
+   width: 150px;
+   height: 40px;
+   font-weight: 600;
+   border-radius: 5px;
+    
+
+    
+}
+.signup:hover{
+    color:#111010;
+    background-color:#fff ;
+    transition: 0.8ms;
+}
+.login:hover{
+    color:#111010;
+    background-color:#fff ;
+    transition: 0.8ms;
+}
+.banner{
+    /* background: linear-gradient(90deg,#111010 0,hsla(0, 0%, 9%, 0.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0, 0%, 9%, 0.741) 7.06%,hsla(0, 0%, 6%, 0.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,1%,90%,0) 70%),url("https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfuJrSu6N9JwKDZc3wdoT0SkNwwDedaFEx7P7sPKl8up8Ql9CHvvAkMaXDrZl4s9F2Ju1G-p6rsMOvTSC7VvQWH2bptrDOxTVlAe.jpg?r=e21&quot;"); */
+    background: linear-gradient(90deg,#181818 0,hsla(0,4%,8%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%),url("https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZ6ND88pZdT9v-gbiVfmMr8vowAHFfr8ujruNpYcF3Wv3LRAZtC9MRPHiYrREQWia2AAG29hUmfPvn73DDFyhcmjDCR0N47ivOvB.jpg?r=965&quot;");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100vh;
+}
+.bannercontent .bannertitle {
+    padding: 15% 5% 5% 5%;
+height: auto;
+    
+}
+img{
+    height: auto;
+    width: 30%;
+
+}
+div .r{
+    padding: 3% 5% 2% 0% ;
+    
+    
+}
+div .a .g{
+    padding: 0%;
+    padding-right: 1%;
+    color: #898484;
+    display: inline-block;
+}
+div .a .h{
+    padding-left:1% ;
+    padding-right: 1%;
+    color: #898484;
+}
+div .a .u{
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #898484;
+}
+div .a .r1{
+    padding-left: 1%;
+    color: #898484;
+
+}
+div .m{
+    padding: 0%;
+    padding-left: 0;
+}
+ div.para{
+    padding: 1%;
+    padding-left: 0%;
+    font-size: 20px ;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+ h3 .a3{
+    padding: 0.3%;
+    color: #898484;
+    padding-left: 0%;
+    font-size: 15px;
+}
+.square{
+    
+        width: 25px; 
+        height: 25px; 
+        text-align: center; 
+        font-size: 10px; 
+        border: 2px solid rgb(68, 67, 67); 
+        outline: none; 
+        border-radius: 0; 
+        background-color: rgb(7, 7, 7);
+        color: #b2b2b2;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+}
+h3 .i{
+    color: #898484;
+    margin: 0 4px;
+}
+h3 .m{
+    padding-bottom: 2%;
+}
